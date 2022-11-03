@@ -31,5 +31,4 @@ public class ToDoListController extends HttpServlet {
 		application.setAttribute("list", list);
 		response.sendRedirect("/ToDoList_JSP/ToDoList.jsp");
 	}
-
 }
